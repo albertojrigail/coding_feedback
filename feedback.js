@@ -21,12 +21,12 @@ const start = (say, sendButton) => {
 			let url = 'http://34.96.245.124:2999/?uid=' + userId + '&pid=' + problemId +'&datetime=' + now;
 
 			let script = '<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?lang=py&amp;skin=sunburst"></script>';
-			let starthtml = '<pre class="prettyprint">';
+			let starthtml = '<div style="background-color: blueviolet;"><div style="margin:auto;"><pre class="prettyprint">';
 			let middlehtml = '';
 			solutionTemplate.forEach(element => {
 				middlehtml += element + '<br/>';
 			});
-			let endhtml = '</pre>';
+			let endhtml = '</pre></div></div>';
 			
 			say('*'+title+'*').then(() => {
 				say(prompt).then(() => {
