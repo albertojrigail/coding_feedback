@@ -1,2 +1,6 @@
 # coding_feedback
-This FB chatbot provides students with small coding puzzles, which they can submit their solutions. Students may also propose feedback on another student's solution to a similar problem, after which he could receive feedback from another student on his own solution.
+FB chatbot script that integrates in Nemo Bot messenger app.
+
+The script show a random coding puzzle, and serves as a clickbait by providing a customized link.
+
+Users can then access an external web application where they can code their solution.
